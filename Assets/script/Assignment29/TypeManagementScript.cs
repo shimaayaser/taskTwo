@@ -31,16 +31,14 @@ public class TypeManagementScript : MonoBehaviour
                 Debug.Log("The object is a Warrior.");   
             }
          }
-       
-       
-
-
+ 
 
 
 
     }
 
-    
+
+
 }
 
 
@@ -48,7 +46,7 @@ public class Animal{
     public virtual void MakeSound() {
         Debug.Log("Animal sound");
     }
-    public virtual void Move(){
+    public void Move(){
         Debug.Log("Animal moves");
     }
 }
@@ -58,7 +56,7 @@ public class Cat: Animal ,ICanFight{
     {
         Debug.Log("Meow!");
     }
-    public override void Move(){
+    public new void Move(){
         Debug.Log("Cat runs quickly.");
     }
     public void Attack()
