@@ -12,8 +12,6 @@ public class MulticastDelegateExample : MonoBehaviour
     MathOperation operation;
     void Start()
     {
-       
-
         operation += DoubleNumber;
         operation += SquareNumber;
         operation += CubeNumber;
