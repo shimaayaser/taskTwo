@@ -19,7 +19,7 @@ public class UnityEventExample : MonoBehaviour
              onEventTriggered.Invoke();
          }
     }
-    void OnEventResponse()
+    public static void OnEventResponse()
     {
         Debug.Log("The event has been triggered!");
     }
