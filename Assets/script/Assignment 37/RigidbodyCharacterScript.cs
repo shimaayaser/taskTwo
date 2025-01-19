@@ -15,7 +15,7 @@ public class RigidbodyCharacterScript : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
-        rigidbody.freezeRotation = true   
+        rigidbody.freezeRotation = true;
 
     }
 
